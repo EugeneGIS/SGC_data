@@ -1,0 +1,21 @@
+Package: SGCdata
+Title: Data packages with courses lab dataset
+Version: 0.0.0.9000
+Authors@R: c(person(given = "Haokun", 
+                    family = "Liu", 
+                    role = c("aut", "cre"),
+                    email = "haokun.liu@unil.ch"),
+             person(given = "Marj", 
+                    family = "Tonini", 
+                    role = "aut",
+                    email = "marj.tonini@unil.ch"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    tibble

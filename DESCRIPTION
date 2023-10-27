@@ -5,7 +5,7 @@ Authors@R: c(person(given = "Haokun",
                     family = "Liu", 
                     role = c("aut", "cre"),
                     email = "haokun.liu@unil.ch"),
-             person(given = "Marj", 
+             person(given = "Dr. Marj", 
                     family = "Tonini", 
                     role = "aut",
                     email = "marj.tonini@unil.ch"))
@@ -18,4 +18,6 @@ Depends:
     R (>= 2.10)
 LazyData: true
 Imports: 
+    raster,
+    sp,
     tibble
